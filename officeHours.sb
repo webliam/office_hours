@@ -21,7 +21,7 @@ Sub frmMain
   GraphicsWindow.CanResize = 0
   GraphicsWindow.Width = 400
   GraphicsWindow.Height = 350
-  GraphicsWindow.Title = "Office Hour"
+  GraphicsWindow.Title = "Office Hours"
   GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(240, 240, 240)
   GraphicsWindow.FontBold = "False"
   GraphicsWindow.BrushColor = "Black"
@@ -67,7 +67,7 @@ Sub frmMain
   GraphicsWindow.DrawBoundText(300,30,100, "17:28:32 PST")
   GraphicsWindow.FontBold = "False"
   
-  port_hour = Clock.Hour
+  port_hour = Clock.Hours
   port_min = Clock.Minute
   
   GraphicsWindow.FontBold = "True"
